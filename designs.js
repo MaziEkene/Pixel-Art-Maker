@@ -3,9 +3,7 @@
 
 // When size is submitted by the user, call makeGrid()
 
-function makeGrid() {
-
-// Your code goes here!
+(function() {
   'use strict';
 
   // set global variables
@@ -40,6 +38,6 @@ function makeGrid() {
   // change the color of the clicked cell to current color
   function changeColor() {
     this.style.background = $colorPicker.value;
+  }
 
-}
-  })();
+})();
